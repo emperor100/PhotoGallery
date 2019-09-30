@@ -1,0 +1,20 @@
+
+1. Install Xammp server (choose PHP and mySql)
+
+2. Start the Apache and mySql server
+
+3. Place the project in the "C:\xampp\htdocs\Projects\"
+
+4. Open browser goto "http://localhost/phpmyadmin".
+
+5. Select the databases from the list in the left menu.
+  [For detailed instruction I request you to please head over here : "https://www.youtube.com/watch?v=X0_pthMQPMM";
+
+6. Use mySql database (Donot create password for this or else you can update the "CONFIG.php" file accordingly)
+
+7. Open "mySql" folder and run all the queries (to create necessary tables inside database).
+
+8. All of your photos will be placed in the "/photos/" folder.
+
+9. Open new tab in browser and type "http://localhost/projects/photogallery/login.php".
+  (This will redirect you to the page from where you can start interaction with the application)
