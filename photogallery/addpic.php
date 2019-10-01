@@ -143,7 +143,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </create>
 <body>
     <div class="wrapper">
-        <h2>Create New Album</h2>
+        <h2>Add new Photo</h2>
         <p>Please fill below details for adding new Photo.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" enctype="multipart/form-data">
             <div class="form-group <?php echo (!empty($albumname_err)) ? 'has-error' : ''; ?>">
